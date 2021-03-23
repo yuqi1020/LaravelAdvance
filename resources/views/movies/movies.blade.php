@@ -43,3 +43,5 @@
 </div>
 
 {{ $movies->render('pagination::bootstrap-4') }}
+
+
