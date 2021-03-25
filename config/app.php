@@ -227,5 +227,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
+    
+    'key_name' => env('AIzaSyBVhQshPi3zwgBd5lLC84umjwSRRUWM-T0'),
 
 ];
