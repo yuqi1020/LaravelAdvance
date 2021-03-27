@@ -2,7 +2,6 @@
     
     @foreach ($movies as $key => $movie)
 
-        @if($loop->iteration % 3 == 1 && $loop->iteration != 1)
     
             @php
             
@@ -25,8 +24,6 @@
             }
             
             @endphp
-        
-        @endif
     
             <div class="col-lg-4 mb-5">
 
